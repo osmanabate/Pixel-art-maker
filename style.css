@@ -1,17 +1,28 @@
+
 #art{
-  display: table;
+  /*display: table;*/
   border-spacing: 1px;
   background-color: black;
-  border: 5px solid back;
+  width: 500px;
+  margin: 0 auto;
+  /*border: 5px solid back;*/
 }
 .row{
   display: table-row;
 }
 .pixel{
-  display: table-cell;
+/*  display: table-cell;
   background-color: white;
-  width: 40px;
-  height: 40px;
+  width: 10px;
+  height: 10px;*/
+
+  display: table-cell;
+    /* background-color: #901b1b; */
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    float: left;
+    border: 0.5px solid rgb(0, 0, 0);
 }
 
 .pen {
@@ -21,7 +32,13 @@
   border: 2px solid black;
 }
 
-h1{
-  display: block;
-  background-position: center;
+#title {
+  background-color: green;
+  margin: 0 auto;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  padding: 5px;
+  color: white;
 }

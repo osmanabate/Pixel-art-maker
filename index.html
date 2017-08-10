@@ -1,52 +1,33 @@
 <!-- Collaborated with Abdulkerim Abate-->
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Learning JavaScript</title>
-	<link rel= "stylesheet" href= "style.css" />
-	<script scr= "script.js"></script>
-</head>
-<body>
-<h1>Pixel Art Maker</h1>
-	<div id="palette">
-      <div class="pen" style="background-color:white;" onclick="setPenColour('white')"></div>
-      <div class="pen" style="background-color:black;" onclick="setPenColour('black')"></div>
-      <div class="pen" style="background-color:green;" onclick="setPenColour('green')"></div>
-      <div class="pen" style="background-color:blue;" onclick="setPenColour('blue')"></div>
-	</div>
-	
-<div id= "art">
-	<div class= "row">
-		<div class= "pixel" onclick="setPixelColour(this)"></div>
-		<div class= "pixel"></div>
-		<div class= "pixel"></div>
-	</div>
-	<div class= "row">
-		<div class= "pixel"></div>
-		<div class= "pixel"></div>
-		<div class= "pixel"></div>
-	</div>
-	<div class= "row">
-		<div class= "pixel"></div>
-		<div class= "pixel"></div>
-		<div class= "pixel"></div>
-	</div>
-	<div class= "row">
-		<div class= "pixel" onclick="setPixelColour(this)"></div>
-		<div class= "pixel"></div>
-		<div class= "pixel"></div>
-	</div>
-	<div class= "row">
-		<div class= "pixel"></div>
-		<div class= "pixel"></div>
-		<div class= "pixel"></div>
-	</div>
-	<div class= "row">
-		<div class= "pixel"></div>
-		<div class= "pixel"></div>
-		<div class= "pixel"></div>
-	</div>
-</div>
+  <head>
+    <title>My Pixel Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js">
+    </script>
+  </head>
+  <body>
+  	<div id="title">
+    <h1>Pixel Art Maker</h1>
+    </div>
+    <div id="palette">
+      <div class="pen"  onclick="setPenColour(event)"></div>
+      
+      <div class="pen"  onclick="setPenColour(event)"></div>
 
+      <div class="pen"  onclick="setPenColour(event)"></div>
+
+      <div class="pen"  onclick="setPenColour(event)"></div>
+
+      <div class="pen"  onclick="setPenColour(event)"></div>
+
+      <div class="pen"  onclick="setPenColour(event)"></div>
+
+      <div class="pen"  onclick="setPenColour(event)"></div>
+
+    </div>
+
+<div id="art"></div>
 </body>
 </html>
